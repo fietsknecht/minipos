@@ -1,3 +1,4 @@
+<html>
 <b>compiling</b>
 To compile the unaltered source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library.
 HiSoft BASIC 2.1 was released in 1991. In 1999 HiSoft released the additional ENCHANT library, which contains NETWORLD.
@@ -5,3 +6,4 @@ An excellent online source for anything related to BASIC on Atari is <a href="ht
 HiSoft BASIC manuals.
 
 Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) of QB64 (for Windows/Linux).
+</html>
