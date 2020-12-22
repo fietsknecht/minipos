@@ -13,7 +13,7 @@ However, the (also excellent) HiSoft BASIC 2.1 from 1991 does work without any p
 The <i>binary</i> directory contains the most recent MINIPOS.TOS. It requires the included directories DATA and RECEIPTS. 
 The DATA directory contains sample files needed by the program.
 Receipts will be stored in the RECEIPTS directory.
-<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours.
+<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to send SMS's.
 
 <b>Features</b>
 
