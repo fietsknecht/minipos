@@ -8,14 +8,12 @@ Did an early version in Windows QB64. I wanted it to look like a TOS program, so
 However, the (also excellent) HiSoft BASIC 2.1 from 1991 does work without any problems. That was my weapon of choice to create MINIPOS.TOS.
 <br>I'm using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but absolutely useable.
 
-
 <b>Quick start</b>
 
 The <i>binary</i> directory contains the most recent MINIPOS.TOS. It requires the included directories DATA and RECEIPTS. 
 The DATA directory contains sample files needed by the program.
 Receipts will be stored in the RECEIPTS directory.
 <br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours.
-
 
 <b>Features</b>
 
@@ -32,13 +30,11 @@ Basically, the program prints receipts to your default printer. Receipts have a 
 <br>PAYMENT.TXT - allowed payment methods
 <br>PRODUCT.TXT - name and price (including tax)
 <br>REMARK.TXT - your remarks for each sale (if any)
-The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?)
-
+<br>The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?)
 
 <b>SMS</b>
 
 If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
-
 
 <b>Compiling</b>
 
@@ -46,4 +42,7 @@ To compile the unaltered source you will need HiSoft BASIC 2.1 for Atari with th
 HiSoft BASIC 2.1 was released in 1991. In 1999 HiSoft released the additional ENCHANT library, which contains NETWORLD.
 An excellent online source for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/">https://docs.dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
 <br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) of QB64 (for Windows/Linux).
+
+<b>Any questions?</b>
+Contact me by reporting an issue. I will get back to you soon.
 
