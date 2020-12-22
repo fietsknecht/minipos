@@ -1,0 +1,27 @@
+#Name and Telephone number are required
+#Name                     #Tel
+#23456789012345678901234567890123456789
+Rob Vousten               +31634308043
+Mick Jagger               +44000000001
+Keith Richards            +44000000002
+Charlie Watts             +44000000003
+Bill Wyman                +44000000004
+Brian Jones               +44000000005
+Mick Taylor               +44000000006
+Ronnie Wood               +44000000007
+John Lennon               +44000000008
+Paul McCartney            +44000000009
+George Harrison           +44000000010
+Ringo Starr               +44000000011
+Steve Marriot             +44000000012
+Ian MacLagan              +44000000013
+Ronnie Lane               +44000000014
+Kenney Jones              +44000000015
+Ray Davies                +44000000016
+Dave Davies               +44000000017
+Mick Avory                +44000000018
+Pete Quaife               +44000000019
+Roger Daltrey             +44000000020
+Pete Townshend            +44000000021
+Keith Moon                +44000000022
+John Entwistle            +44000000023
