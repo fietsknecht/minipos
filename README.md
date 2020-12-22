@@ -27,6 +27,10 @@ Receipts will be stored in the RECEIPTS directory.
 <br>PAYMENT.TXT - allowed payment methods
 <br>PRODUCT.TXT - name and price (including tax)
 <br>REMARK.TXT - your remarks for each sale (if any)
+The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?)
+
+<b>SMS</b>
+If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
 
 <b>Compiling</b>
 <br>To compile the unaltered source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library.
