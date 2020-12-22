@@ -8,5 +8,9 @@ Did an early version in Windows QB64. I wanted it to look like a TOS program, so
 However, the (also excellent) HiSoft BASIC 2.1 from 1991 does work without any problems. That was my weapon of choice to create MINIPOS.TOS.
 <br>I'm using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but absolutely useable.
 
-See the other files included in this repository for more details.
+<b>Quick start</b>
+The binary directory contains the most recent MINIPOS.PRG. It requires the included directories DATA and RECEIPTS. 
+The DATA directory contains sample files needed by the program.
+Receipts will be stored in the RECEIPTS directory.
+<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours.
 
