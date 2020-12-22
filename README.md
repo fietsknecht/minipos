@@ -9,6 +9,7 @@ However, the (also excellent) HiSoft BASIC 2.1 from 1991 does work without any p
 <br>I'm using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but absolutely useable.
 
 <b>Quick start</b>
+
 The binary directory contains the most recent MINIPOS.PRG. It requires the included directories DATA and RECEIPTS. 
 The DATA directory contains sample files needed by the program.
 Receipts will be stored in the RECEIPTS directory.
