@@ -1,5 +1,0 @@
-The binary directory contains the most recent MINIPOS.PRG. It requires the included directories DATA and RECEIPTS. 
-The DATA directory contains sample files needed by the program.
-Receipts will be stored in the RECEIPTS directory.
-
-The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours.
