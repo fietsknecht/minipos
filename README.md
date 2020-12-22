@@ -17,7 +17,7 @@ Receipts will be stored in the RECEIPTS directory.
 
 <b>Configuarion</b>
 
-Basically, the program prints receipts to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the XP58 from Xprinter. Any printer will do if you feed it the right (endless) paper size.
+Basically, the program prints receipts to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you feed it the right (endless) paper size.
 <br>It maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
 <br>CUSTOMER.TXT - name and phone number
 <br>DATABASE.TXT - sales history
