@@ -27,7 +27,7 @@ Basically, the program prints receipts in plain ASCII to your default printer. R
 <br>MINIPOS.CFG - tax and language configuration, see the file for details
 <br>MTOTAL.TXT - monthly sales totals (summary displayed on home screen)
 <br>PARK.TXT - parked sales
-<br>PAYMENT.TXT - allowed payment methods
+<br>PAYMENT.TXT - available payment methods
 <br>PRODUCT.TXT - name and price (including tax) of your products
 <br>REMARK.TXT - your remarks for each sale (if any)
 <br>The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?)
