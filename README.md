@@ -23,7 +23,7 @@ Basically, the program prints receipts to your default printer. Receipts have a 
 <br>DATABASE.TXT - sales history
 <br>HEADER.TXT - the header for your receipts
 <br>LAST.TXT - last receipt number
-<br>LOGO.TXT - your logo in 5x80 ASCII to be displayed on the opening screen
+<br>LOGO.TXT - your logo in 5x80 ASCII to be displayed on the home screen
 <br>MINIPOS.CFG - configuration, see the file for details
 <br>MTOTAL.TXT - monthly sales totals
 <br>PARK.TXT - parked sales
@@ -41,7 +41,7 @@ If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you
 To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to an SMTP server to send SMS's).
 HiSoft BASIC 2.1 was released in 1991. In 1999 HiSoft released the additional ENCHANT library, which contains NETWORLD.
 An excellent online source for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/">https://docs.dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
-<br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) of QB64 (for Windows/Linux).
+<br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) or QB64 (for Windows/Linux).
 
 <b>Any questions?</b>
 
