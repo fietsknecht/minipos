@@ -510,7 +510,7 @@ SUB overview
         exbtw$ = STR$(exbtw!)
         btw! = (amount! - exbtw!)
         btw100! = 100 * btw!
-        btw! = btw100! / 100
+        btw! = FIX(btw100!) / 100
         btw$ = STR$(btw!)
         btw$ = RIGHT$(btw$, LEN(btw$) - 1)
         IF LEFT$(btw$, 1) = "." THEN
