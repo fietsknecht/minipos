@@ -24,7 +24,7 @@ Basically, the program prints receipts in plain ASCII to your default printer. R
 <br>HEADER.TXT - the header for your receipts
 <br>LAST.TXT - last receipt number
 <br>LOGO.TXT - your logo in 5x80 ASCII to be displayed on the home screen
-<br>MINIPOS.CFG - configuration, see the file for details
+<br>MINIPOS.CFG - tax and language configuration, see the file for details
 <br>MTOTAL.TXT - monthly sales totals
 <br>PARK.TXT - parked sales
 <br>PAYMENT.TXT - allowed payment methods
