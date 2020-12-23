@@ -19,7 +19,7 @@ Receipts will be stored in the RECEIPTS directory.
 
 Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
 <br>It maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
-<br>CUSTOMER.TXT - name and phone number
+<br>CUSTOMER.TXT - name and phone number of your customers
 <br>DATABASE.TXT - sales history
 <br>HEADER.TXT - the header for your receipts
 <br>LAST.TXT - last receipt number
@@ -28,7 +28,7 @@ Basically, the program prints receipts in plain ASCII to your default printer. R
 <br>MTOTAL.TXT - monthly sales totals
 <br>PARK.TXT - parked sales
 <br>PAYMENT.TXT - allowed payment methods
-<br>PRODUCT.TXT - name and price (including tax)
+<br>PRODUCT.TXT - name and price (including tax) of your products
 <br>REMARK.TXT - your remarks for each sale (if any)
 <br>The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?)
 
