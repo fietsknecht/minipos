@@ -6,7 +6,7 @@ For several years I used an overpriced and overfeatured commercial POS package u
 Did an early version in Windows QB64. I wanted it to look like a TOS program, so I used the black Atari font on a white background.
 <br>That made me realize nothing beats the real thing. Dug out my old MagiC-PC software (an excellent multi-tasking Atari-ST emulator dating from 1995), only to find out that nor the original GFA-Basic, nor its semi-official successor <a href="http://gfabasic.net">GBE</a>, will run under MagiC. 
 However, the (equally excellent) HiSoft BASIC 2.1 from 1991 does work without any problems. That was my weapon of choice to create MINIPOS.TOS.
-<br>I have been using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but absolutely useable. Maybe it's of some use to someone.
+<br>I have been using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but certainly useable. Maybe it's of some use to someone.
 
 <b>Quick start</b>
 
