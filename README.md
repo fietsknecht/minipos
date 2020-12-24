@@ -49,5 +49,5 @@ Contact me by reporting an issue. I will get back to you soon.
 
 <b>License</b>
 
-I believe in freedom, equality and sharing, so I'm releasing this under the GNU General Public License 3.0-or-later. In short this means you can do what you like with it, as long as you don't ask money for it. You will be stoned by communists (including me) if you do. See the file COPYING for details.
+I believe in freedom, equality and sharing, so I'm releasing this under the GNU General Public License 3.0-or-later. In short this means you can do what you like with it, as long as you don't ask money for it. See the file COPYING for details.
 
