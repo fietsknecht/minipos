@@ -17,7 +17,7 @@ Receipts will be stored in the RECEIPTS directory.
 
 <b>Configuration</b>
 
-Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
+Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/" target="_blank">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
 <br>It maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
 <ul>
 <li>CUSTOMER.TXT - name and phone number of your customers
@@ -42,7 +42,7 @@ If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you
 
 To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to an SMTP server to send SMS's).
 HiSoft BASIC 2.1 was released in 1991. In 1999 HiSoft released the additional ENCHANT library, which contains NETWORLD.
-An excellent online resource for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/">https://docs.dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
+An excellent online resource for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/" target="_blank">dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
 <br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) or QB64 (for Windows/Linux).
 
 <b>Any questions?</b>
