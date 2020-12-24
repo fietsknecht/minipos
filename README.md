@@ -15,7 +15,7 @@ The DATA directory contains sample files needed by the program.
 Receipts will be stored in the RECEIPTS directory.
 <br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to send SMS's.
 
-<b>Configuarion</b>
+<b>Configuration</b>
 
 Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
 <br>It maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
@@ -46,4 +46,7 @@ An excellent online resource for anything related to BASIC on Atari is <a href="
 <b>Any questions?</b>
 
 Contact me by reporting an issue. I will get back to you soon.
+
+<b>License</b>
+I believe in freedom, equality and sharing, so I'm releasing this under the GNU General Public License 3.0-or-later. In short this means you can do what you like with it, as long as you don't ask money for it. You will be stoned by communists (including me) if you do. See the file COPYING for details.
 
