@@ -48,7 +48,7 @@ An excellent online resource for anything related to BASIC on Atari is <a href="
 
 <b>Known bugs</b>
 
-MagiC and ARAnyM behave differenlty in (not) displaying the cursor. Until I find a workaround, the latest version is optimized for MagiC.
+MagiC and ARAnyM behave differently in (not) displaying the cursor. Until I find a workaround, the latest version is optimized for MagiC.
 
 <b>Any questions?</b>
 
