@@ -46,6 +46,10 @@ HiSoft BASIC 2.1 was released in 1993. In 1999 the additional ENCHANT library wa
 An excellent online resource for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/">dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
 <br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) or QB64 (for Windows/Linux).
 
+<b>Known bugs</b>
+
+MagiC and ARAnyM behave differenlty in (not) displaying the cursor. Until I find a workaround, the latest version is optimized for MagiC.
+
 <b>Any questions?</b>
 
 Contact me by reporting an issue. I will get back to you soon.
