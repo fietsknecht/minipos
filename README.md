@@ -33,8 +33,8 @@ Basically, the program prints receipts in plain ASCII to your default printer. R
 <li>PRODUCT.TXT - name and price (including tax) of your products
 <li>REMARK.TXT - your remarks for each sale (if any)
 </ul>
-The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?) Or watch a short video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CBsLJ-SIWyk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The program only needs a key press to tell it what you want it to do. The available options are shown on the bottom line. That's all there is to it. Try the binary to see how it works. (How's that for a manual?) Or watch a short 
+<a href="https://www.youtube.com/watch?v=CBsLJ-SIWyk" target="_blank">video</a>.
 
 <br><b>SMS</b>
 
