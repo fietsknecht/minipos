@@ -1,3 +1,5 @@
+# Description for parked/on-hold sale has to be "Park sale" at this time
+# other payment methods can be anything
 Paid cash
 Paid by card
 Paid by bank
