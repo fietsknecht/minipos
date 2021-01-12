@@ -1,3 +1,5 @@
+12-01-2021
+- added v0.46 source and binary. Current date now from Gemdos instead of Hbasic's buggy DATE$. This will work until 2047. Contact me if you need to use the program after that time. If I'm alive and able, I will respond immediately.
 02-01-2021
 - added v0.43 source and binary; some bug fixes
 26-12-2020
