@@ -1,0 +1,7 @@
+open atari-st.faith
+minipos
+AtariST4ever!
+verbose 0
+cd watch
+put webhook.upl
+quit
