@@ -41,7 +41,8 @@ The program only needs a key press to tell it what you want it to do. The availa
 
 If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
 
-<br><b>Webhook</b>
+<b>Webhook</b>
+
 If you choose <i>Paid by card</i> in the payment options, you will be asked if you want to activate e-payment. If you do, a webhook will be send. You can use this to trigger a script on your smartphone, tablet, etc. The webhook for your device can be configured in MINIPOS.CFG. I use it to trigger a MacroDroid script on my Android to punch in the payment amount on my wireless payment device. You will find a sample MacroDroid script in the <i>macrodroid</i> directory.
 
 <b>Compiling</b>
