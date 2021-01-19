@@ -7,19 +7,20 @@ Did an early version in Windows QB64. I wanted it to look like a TOS program, so
 <br>That made me realize nothing beats the real thing. Dug out my old MagiC-PC software (an excellent multi-tasking Atari-ST emulator dating from 1996) only to find out that nor the original GFA-Basic, nor its semi-official successor GBE*, will run properly under MagiC. 
 However, the (equally excellent) HiSoft BASIC 2.1 from 1993 does work without any problems. That was my weapon of choice to create MINIPOS.TOS.
 <br>I have been using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but certainly useable. Maybe it's of some use to someone.
+
 <br><img src="https://github.com/winterhard/minipos/blob/main/image/screenshot.jpg">
 
 <b>Quick start</b>
 
-The <i>binary</i> directory contains the most recent MINIPOS.TOS. It requires the included directories DATA and RECEIPTS. 
+The <i>binary</i> directory contains the most recent MINIPOS.TOS. It requires the included directories DATA, RECEIPTS and TOOLS. 
 The DATA directory contains sample files needed by the program.
-Receipts will be stored in the RECEIPTS directory.
-<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to send SMS's.
+Receipts will be stored in the RECEIPTS directory. TOOLS contains a helper program (GAPFTP).
+<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to use the sms an webhook functions.
 
 <b>Configuration</b>
 
-Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
-<br>It maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
+Basically, the program prints receipts in plain ASCII to your default printer. Receipts have a width of 30 characters. Works best with a thermal 58mm POS printer and a monospaced font. I use the cheap XP58 from <a href="https://www.xprintertech.com/">Xprinter</a>. Any printer will do if you can set the margins and feed it the right (endless) paper size.
+<br>The program maintains a customer base and a product base from which you choose what will be printed. The required files are stored in the DATA directory:
 <ul>
 <li>CUSTOMER.TXT - name and phone number of your customers
 <li>DATABASE.TXT - sales history
@@ -39,6 +40,9 @@ The program only needs a key press to tell it what you want it to do. The availa
 <br><b>SMS</b>
 
 If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
+
+<br><b>Webhook</b>
+If you choose <i>Paid by card</i> in the payment options, you will be asked if you want to activate e-payment. If you do, a webhook will be send. You can use this to trigger a script on your smartphone, tablet, etc. The webhook for your device can be configured in MINIPOS.CFG. I use it to trigger a MacroDroid script on my Android to punch in the payment amount on my wireless payment device. You will find a sample MacroDroid script in the <i>macrodroid</i> directory.
 
 <b>Compiling</b>
 
