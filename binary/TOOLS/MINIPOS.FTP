@@ -3,5 +3,5 @@ minipos
 AtariST4ever!
 verbose 0
 cd watch
-put webhook.upl
+put tools\webhook.upl
 quit
