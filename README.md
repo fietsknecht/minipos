@@ -47,7 +47,7 @@ If you choose <i>Paid by card</i> in payment options, you will be asked if you w
 
 <b>Compiling</b>
 
-To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to an SMTP server to send SMS's).
+To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to the internet).
 HiSoft BASIC 2.1 was released in 1993. In 1999 the additional ENCHANT library was released, which contains NETWORLD.
 An excellent online resource for anything related to BASIC on Atari is <a href="https://docs.dev-docs.org/">dev-docs.org</a>. Search for HiSoft and you will also find the (scanned) HiSoft BASIC manuals.
 <br>Since HiSoft BASIC is similar to QBASIC, it will be relatively easy to port the source to QBASIC (for DOS) or QB64 (for Windows/Linux).
