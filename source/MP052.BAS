@@ -318,14 +318,14 @@ SUB parked
                 IF LEFT$(myLine$, 4) = LEFT$(totpr$,4) THEN
                     bedrag$ = MID$(myLine$, 18, 6)
                 END IF
-                IF myLine$ = "Park sale" THEN
+                IF LEFT$(myLine$,4) = "PARK" THEN
                     x = CSRLIN
                     CALL readAndSelect("payment.txt", "Payment method", 1, 30, "p")
                     IF startover = 1 GOTO ready
                     finalPay$ = selectedLine$
                     LOCATE x, 1
                     PRINT finalPay$
-                    PRINT #3, finalPay$
+                    PRINT #3, RIGHT$(finalPay$,LEN(finalPay$)-5)
                 ELSE
                     PRINT #3, myLine$  
                     IF LEFT$(myLine$, 3) <> "---" THEN
@@ -336,7 +336,7 @@ SUB parked
         WEND
         CLOSE #2
         CLOSE #3
-        IF finalPay$ = "Paid by card" THEN
+        IF LEFT$(finalPay$,4) = "CARD" THEN
             CALL statusline(" Activate e-payment? (Y/n)")
             DO
                 k$ = INKEY$
@@ -424,7 +424,7 @@ END SUB
 SUB writecsv
     SHARED dbdate$, tot$, btw$, last$, customer$, today$, pay$, jaar$
     STATIC csvtxt$
-    IF pay$ <> "Park sale" THEN
+    IF LEFT$(pay$,4) <> "PARK" THEN
         customer$ = LEFT$(customer$, 22)
         csvtxt$ = dbdate$ + " " + jaar$ + last$ + " " + customer$ + " " + tot$ + " " + pay$
         OPEN "data\database.txt" FOR APPEND AS #1
@@ -445,7 +445,7 @@ SUB makeprint
         p = INSTR(smstxt$,"/p")
         smstxt$ = LEFT$(smstxt$,p-1) + tot$ + RIGHT$(smstxt$,LEN(smstxt$)-p-1)
     END IF
-    IF pay$ = "Park sale" THEN
+    IF LEFT$(pay$,4) = "PARK" THEN
         smssent$ = "SMS-N"
         IF LEN(tel$) = 12 AND LEFT$(tel$, 1) = "+" THEN
             CALL statusline (" Send SMS to " + tel$ + "? (y/N)")
@@ -489,11 +489,11 @@ SUB makeprint
     NEXT i
     PRINT #1, tottxt$
     PRINT #1, btwtxt$
-    PRINT #1, pay$
+    PRINT #1, RIGHT$(pay$,LEN(pay$)-5)
     PRINT #1, STRING$(30, "-")
     PRINT #1, thapr$
     CLOSE #1
-    IF pay$ <> "Park sale" THEN
+    IF LEFT$(pay$,4) <> "PARK" THEN
         k$ = ""
         ' wil je printen?
         CALL statusline (" Print receipt? (Y/n)")
