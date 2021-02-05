@@ -6,7 +6,7 @@ For several years I used an overpriced and overfeatured commercial POS package u
 Did an early version in Windows QB64. I wanted it to look like a TOS program, so I used the black Atari font on a white background.
 <br>That made me realize nothing beats the real thing. Dug out my old MagiC-PC software (an excellent multi-tasking Atari-ST emulator dating from 1996) only to find out that nor the original GFA-Basic, nor its semi-official successor GBE*, will run properly under MagiC. 
 However, the (equally excellent) HiSoft BASIC 2.1 from 1993 does work without any problems. That was my weapon of choice to create MINIPOS.TOS.
-<br>I have been using the MINIPOS program now for about six months on a daily basis. Definitely not bug-free, but certainly useable. Maybe it's of some use to someone.
+<br>I have been using the MINIPOS program since mid-2020 on a daily basis. Definitely not bug-free, but certainly useable. Maybe it's of some use to someone.
 
 <br><img src="https://github.com/winterhard/minipos/blob/main/image/screenshot.jpg">
 
@@ -15,7 +15,7 @@ However, the (equally excellent) HiSoft BASIC 2.1 from 1993 does work without an
 The <i>binary</i> directory contains the most recent MINIPOS.TOS. It requires the included directories DATA, RECEIPTS and TOOLS. 
 The DATA directory contains sample files needed by the program.
 Receipts will be stored in the RECEIPTS directory. TOOLS contains a helper program (GAPFTP).
-<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to use the sms and webhook functions (see below).
+<br>The program should run on any Atari (or Atari emulator) that can display 80x25 chars in 4 colours. You will need an internet connection to use the sms and webhook functionality (see below).
 
 <b>Configuration</b>
 
@@ -39,11 +39,11 @@ The program only needs a key press to tell it what you want it to do. The availa
 
 <br><b>SMS</b>
 
-If you put a sale on hold (by choosing <i>Park sale</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
+If you put a sale on hold (by choosing <i>PARK</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
 
 <b>Webhook</b>
 
-If you choose <i>Paid by card</i> in payment options, you will be asked if you want to activate e-payment. If you do, a webhook will be send over the internet. You can use this to trigger a script on your smartphone, tablet, etc. The webhook for your device can be configured in MINIPOS.CFG. I use it to trigger a MacroDroid script on my Android to punch in the payment amount on my wireless payment device. You will find a sample MacroDroid script in the <i>macrodroid</i> directory.
+If you choose <i>CARD</i> in payment options, you will be asked if you want to activate e-payment. If you do, a webhook (including the payment amount) will be send over the internet. You can use this to trigger a script on your smartphone, tablet, etc. The webhook for your device can be configured in MINIPOS.CFG. I use it to trigger a MacroDroid script on my Android that will punch in the payment amount on my wireless payment device. You will find a sample MacroDroid script in the <i>macrodroid</i> directory.
 
 <b>Compiling</b>
 
