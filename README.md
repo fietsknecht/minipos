@@ -41,10 +41,6 @@ The program only needs a key press to tell it what you want it to do. The availa
 
 If you put a sale on hold (by choosing <i>PARK</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
 
-<b>Webhook</b>
-
-If you choose <i>CARD</i> in payment options, you will be asked if you want to activate e-payment. If you do, a webhook (including the payment amount) will be send over the internet. You can use this to trigger a script on your smartphone, tablet, etc. The webhook for your device can be configured in MINIPOS.CFG. I use it to trigger a MacroDroid script on my Android that will punch in the payment amount on my wireless payment device. You will find a sample MacroDroid script in the <i>macrodroid</i> directory.
-
 <b>Compiling</b>
 
 To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to the internet).
