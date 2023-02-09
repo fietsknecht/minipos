@@ -62,7 +62,7 @@ Contact me by reporting an issue. I will get back to you soon.
 
 <b>License</b>
 
-I believe in freedom, equality and sharing, so I'm releasing this under the GNU General Public License 3.0-or-later. In short this means you can do what you like with it, as long as you don't ask money for it. See the file COPYING for details.
+I'm releasing this under the GNU General Public License 3.0-or-later. In short this means you can do what you like with it, as long as you don't ask money for it. See the file COPYING for details.
 
 <hr>
 * Update 04-01-2021: The latest version 3.70 of <a href="http://gfabasic.net">GBE</a> runs smoothly under MagiC.
