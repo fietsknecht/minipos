@@ -41,6 +41,10 @@ The program only needs a key press to tell it what you want it to do. The availa
 
 If you put a sale on hold (by choosing <i>PARK</i> in payment methods), you will have the opportunity to send an SMS to your customer. The SMS text can be configured in MINIPOS.CFG. At this point the SMS will be sent through my pre-configured gateway. You can try it if you like, there are plenty of free sms's left.
 
+<b>Digital receipt</b>
+
+Latest version can do digital receipt to customer. Well, all the program does is send the receipt plus phone number to my home server. A script on the server converts the receipt to pdf, gives it an unique name and sends the customer an sms with a dowload link. Looks professional but is just homebrew.
+
 <b>Compiling</b>
 
 To compile the source you will need HiSoft BASIC 2.1 for Atari with the NETWORLD library (for talking to the internet).
