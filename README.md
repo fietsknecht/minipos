@@ -43,7 +43,7 @@ If you put a sale on hold (by choosing <i>PARK</i> in payment methods), you will
 
 <b>Digital receipt</b>
 
-Latest version can do digital receipt to customer. Well, all the program does is send the receipt plus phone number to my home server. A script on the server converts the receipt to pdf, gives it an unique name and sends the customer an sms with a dowload link. Looks professional but is just homebrew.
+Latest version can do digital receipt to customer. Well, all the program does is send the receipt plus phone number to my home server. A script on the server converts the receipt to pdf, gives it a unique name and sends the customer an sms with a dowload link. Looks professional but is just homebrew.
 
 <b>Compiling</b>
 
